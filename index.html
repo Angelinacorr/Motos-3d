@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Visualización AR - León, Ñu y Lobo</title>
+    <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+    <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+    
+    <a-scene embedded arjs="trackingMethod: best; sourceType: webcam; debugUIEnabled: false;" vr-mode-ui="enabled: false">
+
+        <a-entity camera></a-entity>
+
+        <a-sky src="ImagenesEscenas/cieloAzul.jpg"></a-sky>
+
+        <a-marker preset="hiro">
+
+
+            <a-plane position="0 0 0" rotation="-90 0 0" width="40" height="40" repeat="40 40" src="ImagenesEscenas/suelo.jpg" shadow></a-plane>
+
+            <a-entity id="Moto1" position="-2 0 0" scale="0.8 0.8 0.8" 
+                     sound="src:Audios/Audio.m4a; autoplay: true; loop: true; volume: 3"
+                     gltf-model="Moto1/scene.gltf">
+                <a-animation attribute="rotation" to="0 360 0" dur="10000" easing="linear" repeat="indefinite"></a-animation>
+            </a-entity>
+
+            <a-entity id="Moto2" position="0 0 0" scale="0.8 0.8 0.8" 
+                     sound="src: Audios/videoplayback.m4a; autoplay: true; loop: true; volume: 3"
+                     gltf-model="Moto2/scene.gltf">
+                <a-animation attribute="rotation" to="360 0 0" dur="8000" easing="linear" repeat="indefinite"></a-animation>
+            </a-entity>
+
+            <a-entity id="Moto3" position="-2 0 0" scale="0.8 0.8 0.8" 
+                     sound="src:Audios/Audio.m4a; autoplay: true; loop: true; volume: 3"
+                     gltf-model="Moto3/scene.gltf">
+                <a-animation attribute="position" from="2 0 0" to="2 0 -1" dur="3000" direction="alternate" repeat="indefinite"></a-animation>
+            </a-entity>
+
+        </a-marker>
+
+        <a-entity camera></a-entity>
+    </a-scene>
+
+</body>
+</html>
+
+
+</body>
+
+</html>

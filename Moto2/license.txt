@@ -1,0 +1,11 @@
+Model Information:
+* title:	Honda CRF 250 4 stroke dirt-bike
+* source:	https://sketchfab.com/3d-models/honda-crf-250-4-stroke-dirt-bike-15207bdc3a6f47039c85efb7b3ce3f88
+* author:	moto man 135 (https://sketchfab.com/csharp122705)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Honda CRF 250 4 stroke dirt-bike" (https://sketchfab.com/3d-models/honda-crf-250-4-stroke-dirt-bike-15207bdc3a6f47039c85efb7b3ce3f88) by moto man 135 (https://sketchfab.com/csharp122705) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
