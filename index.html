@@ -23,23 +23,23 @@
         <a-marker preset="hiro">
 
             <a-plane position="0 0 0" rotation="-90 0 0" 
-                     width="20" height="20" repeat="30 30" 
+                     width="56" height="56" repeat="30 30" 
                      src="ImagenesEscenas/suelo.jpg" shadow>
             </a-plane>
 
-            <a-entity id="Moto1" position="-1 0 0" scale="0.011 0.011 0.011"
+            <a-entity id="Moto1" position="-1 0 0" scale="0.03 0.03 0.03"
                       sound="src: Audios/Audio.m4a; autoplay: true; loop: true; volume: 3"
                       gltf-model="Moto1/scene.gltf">
                 <a-animation attribute="rotation" to="0 360 0" dur="10000" easing="linear" repeat="indefinite"></a-animation>
             </a-entity>
 
-            <a-entity id="Moto2" position="0 0 0" scale="0.011 0.011 0.011"
+            <a-entity id="Moto2" position="0 0 0" scale="0.03 0.03 0.03"
                       sound="src: Audios/videoplayback.m4a; autoplay: true; loop: true; volume: 3"
                       gltf-model="Moto2/scene.gltf">
                 <a-animation attribute="rotation" to="0 360 0" dur="8000" easing="linear" repeat="indefinite"></a-animation>
             </a-entity>
 
-            <a-entity id="Moto3" position="1 0 0" scale="0.014 0.014 0.014"
+            <a-entity id="Moto3" position="1 0 0" scale="0.06 0.06 0.06"
                       sound="src: Audios/Audio.m4a; autoplay: true; loop: true; volume: 3"
                       gltf-model="Moto3/scene.gltf">
                 <a-animation attribute="position" from="1 0 0" to="1 0.5 0" dur="3000" direction="alternate" repeat="indefinite"></a-animation>
@@ -50,3 +50,4 @@
 
 </body>
 </html>
+
